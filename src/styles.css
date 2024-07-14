@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("./Task/Banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*.container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20%;
+}*/
+
+.login-box label {
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me input {
+  margin-right: 10px;
+}
+
+.login-box1 button {
+  padding: 10px;
+  background-color: darkorange;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-box1 button:hover {
+  background-color: darkorange;
+}
+
+.Phn-no {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Phn-no input {
+  width: 100%;
+  text-align: center;
+}
+.login-box {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  width: 400px;
+  margin-right: 60px;
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.login-box label {
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"],
+.login-box input[type="button"] {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-box input[type="button"] {
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+.login-box input[type="button"]:hover {
+  background-color: #555;
+}
+
+.login-box .login-button {
+  padding: 10px;
+  background-color: orange;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  font-weight: 600 !important;
+}
+
+.otp-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  justify-content: space-around;
+}
+
+.otp-box {
+  width: 40px;
+  height: 40px;
+}
+.login-box1 #phone {
+  background-color: #564f4f;
+  border: #fff;
+}
+
+/* App.css  */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.otpInput {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+input {
+  color: black !important;
+}
+
+/* remove input arrows from num input  */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
